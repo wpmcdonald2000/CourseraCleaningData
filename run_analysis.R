@@ -1,23 +1,23 @@
 library(reshape2)
 
-# UCI HAR Dataset folder downloaded to working directory
-# Load features and labels datasets from working directory
-features <- read.table("./UCI HAR Dataset/features.txt")
-activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
+# UCI HAR Dataset folder downloaded to home directory (files too large for GitHub
+# Load features and labels datasets from home directory
+features <- read.table("/Users/williammcdonald/UCI HAR Dataset/features.txt")
+activity_labels <- read.table("/Users/williammcdonald/UCI HAR Dataset/activity_labels.txt")
 colnames(activity_labels) <- c("activity_labels", "activity")
 
 # Load all the test datasets & name columns
-subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
-x_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
-y_test <- read.table("./UCI HAR Dataset/test/y_test.txt")
+subject_test <- read.table("/Users/williammcdonald/UCI HAR Dataset/test/subject_test.txt")
+x_test <- read.table("/Users/williammcdonald/UCI HAR Dataset/test/X_test.txt")
+y_test <- read.table("/Users/williammcdonald/UCI HAR Dataset/test/y_test.txt")
 colnames(x_test) <- features[,2]
 colnames(y_test) <- "activity_labels"
 colnames(subject_test) <- 'subject'
 
 # Load all the training datasets & name columns
-subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
-x_train <- read.table("./UCI HAR Dataset/train/X_train.txt")
-y_train <- read.table("./UCI HAR Dataset/train/y_train.txt")
+subject_train <- read.table("/Users/williammcdonald/UCI HAR Dataset/train/subject_train.txt")
+x_train <- read.table("/Users/williammcdonald/UCI HAR Dataset/train/X_train.txt")
+y_train <- read.table("/Users/williammcdonald/UCI HAR Dataset/train/y_train.txt")
 colnames(x_train) <- features[,2]
 colnames(y_train) <- "activity_labels"
 colnames(subject_train) <- 'subject'
@@ -45,4 +45,4 @@ means <- means[order(means$activity_labels, means$subject),]
 rownames(means)<- c()
 
 # Save the resulting dataset to project repository
-write.table(means, file="./Getting & Cleaning Data course project/tidy_data.txt")
+write.table(means, file="/Users/williammcdonald/CourseraCleaningData/tidy_data.txt")
