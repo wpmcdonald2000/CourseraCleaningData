@@ -6,7 +6,7 @@ CourseraCleaningData
 Class Project is to obtain the UCI HAR Dataset for analysis
 File Folder was placed in home directory since some files were too large to push to GitHub from local repository
 
-** runanalysis.R script does the following:
+runanalysis.R script does the following:
 * Loads the reshape2 library to access melt and dcast functions
 * Load features and labels datasets from home directory and sets column names for the labels dataset for later use
 
