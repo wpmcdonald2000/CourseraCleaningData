@@ -32,36 +32,36 @@ The means of all observations for teh selected data variables were calculated fo
 * tBodyAcc-mean()-Y ------- time domain Mean Body Acceleration  on the Y axis
 * tBodyAcc-mean()-Z ------- time domain Mean Body Acceleration on the Z axis
 * tBodyAcc-std()-X --------- time domain Standard Deviation of Body Accelaration in the X axis
-* tBodyAcc-std()-Y" 
-* tBodyAcc-std()-Z" 
+* tBodyAcc-std()-Y ----- time domain Standard Deviation of Body Accelaration in the Y axis
+* tBodyAcc-std()-Z ----- time domain Standard Deviation of Body Accelaration in the Z axis
 * tGravityAcc-mean()-X ------ time domain Mean Gravity Accelerometer on the X axis
-* tGravityAcc-mean()-Y" 
-* tGravityAcc-mean()-Z" 
+* tGravityAcc-mean()-Y ----- time domain Mean Gravity Accelerometer on the Y axis
+* tGravityAcc-mean()-Z ----- time domain Mean Gravity Accelerometer on the Z axis
 * tGravityAcc-std()-X ------ time domain Standard Deviation of Mean Gravity accelerometer readings X axis
-* tGravityAcc-std()-Y" 
-* tGravityAcc-std()-Z" 
-* tBodyAccJerk-mean()-X" 
-* tBodyAccJerk-mean()-Y" 
-* tBodyAccJerk-mean()-Z" 
-* tBodyAccJerk-std()-X" 
-* tBodyAccJerk-std()-Y" 
-* "tBodyAccJerk-std()-Z" 
-* "tBodyGyro-mean()-X"      time domain Mean Body Gyroscopic measure X axis
-* "tBodyGyro-mean()-Y" 
-* "tBodyGyro-mean()-Z" 
-* "tBodyGyro-std()-X" 
-* "tBodyGyro-std()-Y" 
-* "tBodyGyro-std()-Z" 
-* "tBodyGyroJerk-mean()-X"  time domain Mean Body Jerk Gyroscopic measure X axis
-* "tBodyGyroJerk-mean()-Y" 
-* "tBodyGyroJerk-mean()-Z" 
-* "tBodyGyroJerk-std()-X" 
-* "tBodyGyroJerk-std()-Y" 
-* "tBodyGyroJerk-std()-Z" 
-* "tBodyAccMag-mean()"      time domain Mean Body Accelerometer Magnitude X axis
-* "tBodyAccMag-std()" 
-* "tGravityAccMag-mean()" 
-* "tGravityAccMag-std()" 
+* tGravityAcc-std()-Y ----- time domain Standard Deviation of Mean Gravity accelerometer readings Y axis
+* tGravityAcc-std()-Z ----- time domain Standard Deviation of Mean Gravity accelerometer readings Z axis
+* tBodyAccJerk-mean()-X ----- time domain mean Accelerometer Jerk measurement X axis
+* tBodyAccJerk-mean()-Y ----- time domain mean Accelerometer Jerk measurement Y axis
+* tBodyAccJerk-mean()-Z ----- time domain mean Accelerometer Jerk measurement Z axis
+* tBodyAccJerk-std()-X ----- time domain standard deviation Accelerometer Jerk measurement X axis
+* tBodyAccJerk-std()-Y ----- time domain standard deviation Accelerometer Jerk measurement Y axis
+* "tBodyAccJerk-std()-Z ----- time domain standard deviation Accelerometer Jerk measurement Z axis
+* "tBodyGyro-mean()-X ----- time domain Mean Body Gyroscopic measure X axis
+* "tBodyGyro-mean()-Y ----- time domain Mean Body Gyroscopic measure Y axis
+* "tBodyGyro-mean()-Z ----- time domain Mean Body Gyroscopic measure Z axis
+* "tBodyGyro-std()-X ----- time domain Standard Deviation Body Gyroscopic measure X axis
+* "tBodyGyro-std()-Y ----- time domain Standard Deviation Body Gyroscopic measure Y axis
+* "tBodyGyro-std()-Z ----- time domain Standard Deviation Body Gyroscopic measure Z axis 
+* "tBodyGyroJerk-mean()-X ----- time domain Mean Body Jerk Gyroscopic measure X axis
+* "tBodyGyroJerk-mean()-Y ----- time domain Mean Body Jerk Gyroscopic measure Y axis
+* "tBodyGyroJerk-mean()-Z ----- time domain Mean Body Jerk Gyroscopic measure Z axis
+* "tBodyGyroJerk-std()-X ----- time domain Standard Deviation Body Jerk Gyroscopic measure X axis
+* "tBodyGyroJerk-std()-Y ----- time domain Standard Deviation Body Jerk Gyroscopic measure Y axis
+* "tBodyGyroJerk-std()-Z ----- time domain Standard Deviation Body Jerk Gyroscopic measure Z axis 
+* "tBodyAccMag-mean() ----- time domain Mean Body Accelerometer Magnitude
+* "tBodyAccMag-std() ----- time domain Standard Deviation Body Accelerometer Magnitude
+* "tGravityAccMag-mean() ----- time domain Mean Gravity Accelerometer Magnitude
+* "tGravityAccMag-std() ----- time domain Standard Deviation Gravity Accelerometer Magnitude
 * "tBodyAccJerkMag-mean() ----- time domain Mean Body Accelerometer Jerk Magnitude
 * "tBodyAccJerkMag-std()----- time domain Standard Deviation Body Accelerometer Jerk Magnitude
 * "tBodyGyroMag-mean() ----- time domain Mean Body Gyroscope Magnitude
