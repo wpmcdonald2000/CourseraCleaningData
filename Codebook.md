@@ -4,18 +4,18 @@ This file describes the variables, summariies and units in the required dataset
 
 Variable name	 & Description
 
-* activity_labels -------  Activity being done by the subjects
-* activity" "subject"      Subject ID
-* tBodyAcc-mean()-X" 
-* tBodyAcc-mean()-Y" 
-* tBodyAcc-mean()-Z" 
-* tBodyAcc-std()-X" 
+* activity_labels -------   Activity being done by the subjects
+* activity" "subject"       Subject ID
+* tBodyAcc-mean()-X"        time domain Mean Body Accelerometer measure on the X axis
+* tBodyAcc-mean()-Y"        time domain Mean Body Acceleration  on the Y axis
+* tBodyAcc-mean()-Z"        time domain Mean Body Acceleration on the Z axis
+* tBodyAcc-std()-X"         time domain Standard Deviation of Body Accelaration in the X axis
 * tBodyAcc-std()-Y" 
 * tBodyAcc-std()-Z" 
-* tGravityAcc-mean()-X" 
+* tGravityAcc-mean()-X"     time domain Mean Gravity Accelerometer on the X axis
 * tGravityAcc-mean()-Y" 
 * tGravityAcc-mean()-Z" 
-* tGravityAcc-std()-X" 
+* tGravityAcc-std()-X"      time domain Standard Deviation of Mean Gravity acceleration
 * tGravityAcc-std()-Y" 
 * tGravityAcc-std()-Z" 
 * tBodyAccJerk-mean()-X" 
@@ -24,29 +24,29 @@ Variable name	 & Description
 * tBodyAccJerk-std()-X" 
 * tBodyAccJerk-std()-Y" 
 * "tBodyAccJerk-std()-Z" 
-* "tBodyGyro-mean()-X" 
+* "tBodyGyro-mean()-X"      time domain Mean Body Gyroscopic measure X axis
 * "tBodyGyro-mean()-Y" 
 * "tBodyGyro-mean()-Z" 
 * "tBodyGyro-std()-X" 
 * "tBodyGyro-std()-Y" 
 * "tBodyGyro-std()-Z" 
-* "tBodyGyroJerk-mean()-X" 
+* "tBodyGyroJerk-mean()-X"  time domain Mean Body Jerk Gyroscopic measure X axis
 * "tBodyGyroJerk-mean()-Y" 
 * "tBodyGyroJerk-mean()-Z" 
 * "tBodyGyroJerk-std()-X" 
 * "tBodyGyroJerk-std()-Y" 
 * "tBodyGyroJerk-std()-Z" 
-* "tBodyAccMag-mean()" 
+* "tBodyAccMag-mean()"      time domain Mean Body Accelerometer Magnitude X axis
 * "tBodyAccMag-std()" 
 * "tGravityAccMag-mean()" 
 * "tGravityAccMag-std()" 
-* "tBodyAccJerkMag-mean()" 
+* "tBodyAccJerkMag-mean()"  time domain Mean Body Accelerometer Jerk Magnitude X axis
 * "tBodyAccJerkMag-std()" 
 * "tBodyGyroMag-mean()" 
 * "tBodyGyroMag-std()" 
 * "tBodyGyroJerkMag-mean()" 
 * "tBodyGyroJerkMag-std()" 
-* "fBodyAcc-mean()-X" 
+* "fBodyAcc-mean()-X"         frequency domain Mean Body Accelerometer measure on the X axis
 * "fBodyAcc-mean()-Y" 
 * "fBodyAcc-mean()-Z" 
 * "fBodyAcc-std()-X" 
