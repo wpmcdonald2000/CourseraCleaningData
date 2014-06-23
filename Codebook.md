@@ -13,7 +13,9 @@ This file describes the variables, summariies and units in the required dataset
 
 ## Variable name	 & Description
 
-* activity_labels --------- Activity being done by the subjects
+* activity_labels
+ 
+Activity being done by the subjects
 * activity" "subject------- Subject ID
 * tBodyAcc-mean()-X"        time domain Mean Body Accelerometer measure on the X axis
 * tBodyAcc-mean()-Y"        time domain Mean Body Acceleration  on the Y axis
