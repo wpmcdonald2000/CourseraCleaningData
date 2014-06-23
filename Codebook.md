@@ -1,6 +1,15 @@
 # Getting and Cleaning Data Course Project CodeBook
 
-This file describes the variables, summariies and units in the required dataset
+This file describes the variables, summaries, transformations, and units in the required dataset
+## Transformations
+
+Data selection
+
+ONly the mean or standard deviations of directly measured or calculated data in the original HAR data set is included in the data set.
+
+Data transformation
+
+The means of all observations for teh selected data variables were calculated for each combination of subject and activity. With 6 activities and 30 participants therefore the Data set has 180 rows, each row comprising the means for each variable for a given combination of subject and activity.
 
 ## Activity Labels
 
