@@ -2,6 +2,15 @@
 
 This file describes the variables, summariies and units in the required dataset
 
+## Activity Labels
+
+1 WALKING (value 1)
+2 WALKING_UPSTAIRS (value 2)
+3 WALKING_DOWNSTAIRS (value 3)
+4 SITTING (value 4)
+5 STANDING (value 5)
+6 LAYING (value 6)
+
 Variable name	 & Description
 
 * activity_labels --------- Activity being done by the subjects
