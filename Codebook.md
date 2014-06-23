@@ -22,8 +22,9 @@ The means of all observations for teh selected data variables were calculated fo
 
 ## ID fields 
 
-* activity_labels --------- Activity being done by the subjects
-* activity" "subject------- Subject ID
+* activity_labels ----- Activity identifier
+* activity ----- Activity being done by the subjects
+* subject ------- Subject ID
 
 ## Variable names	 & Description
 ### Time Domain variables
