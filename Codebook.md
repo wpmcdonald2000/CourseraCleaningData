@@ -24,10 +24,10 @@ This file describes the variables, summariies and units in the required dataset
 * tBodyAcc-std()-X --------- time domain Standard Deviation of Body Accelaration in the X axis
 * tBodyAcc-std()-Y" 
 * tBodyAcc-std()-Z" 
-* tGravityAcc-mean()-X"     time domain Mean Gravity Accelerometer on the X axis
+* tGravityAcc-mean()-X ------ time domain Mean Gravity Accelerometer on the X axis
 * tGravityAcc-mean()-Y" 
 * tGravityAcc-mean()-Z" 
-* tGravityAcc-std()-X"      time domain Standard Deviation of Mean Gravity acceleration
+* tGravityAcc-std()-X ------ time domain Standard Deviation of Mean Gravity accelerometer readings X axis
 * tGravityAcc-std()-Y" 
 * tGravityAcc-std()-Z" 
 * tBodyAccJerk-mean()-X" 
