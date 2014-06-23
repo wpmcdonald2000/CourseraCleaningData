@@ -4,8 +4,8 @@ This file describes the variables in the required dataset
 
 Variable name	 & Description
 
-"activity_labels"         Activity being done by the subjects
-"activity" "subject"      Subject ID
+* activity_labels"         Activity being done by the subjects
+* activity" "subject"      Subject ID
 "tBodyAcc-mean()-X" 
 "tBodyAcc-mean()-Y" 
 "tBodyAcc-mean()-Z" 
