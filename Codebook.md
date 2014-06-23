@@ -17,7 +17,7 @@ This file describes the variables, summariies and units in the required dataset
 * activity" "subject------- Subject ID
 
 ## Variable names	 & Description
-
+### Time Domain variables
 * tBodyAcc-mean()-X ------- time domain Mean Body Accelerometer measure on the X axis
 * tBodyAcc-mean()-Y ------- time domain Mean Body Acceleration  on the Y axis
 * tBodyAcc-mean()-Z ------- time domain Mean Body Acceleration on the Z axis
@@ -52,13 +52,15 @@ This file describes the variables, summariies and units in the required dataset
 * "tBodyAccMag-std()" 
 * "tGravityAccMag-mean()" 
 * "tGravityAccMag-std()" 
-* "tBodyAccJerkMag-mean()"  time domain Mean Body Accelerometer Jerk Magnitude X axis
-* "tBodyAccJerkMag-std()" 
-* "tBodyGyroMag-mean()" 
-* "tBodyGyroMag-std()" 
-* "tBodyGyroJerkMag-mean()" 
-* "tBodyGyroJerkMag-std()" 
-* "fBodyAcc-mean()-X"         frequency domain Mean Body Accelerometer measure on the X axis
+* "tBodyAccJerkMag-mean() ----- time domain Mean Body Accelerometer Jerk Magnitude
+* "tBodyAccJerkMag-std()----- time domain Standard Deviation Body Accelerometer Jerk Magnitude
+* "tBodyGyroMag-mean() ----- time domain Mean Body Gyroscope Magnitude
+* "tBodyGyroMag-std() ----- time domain Gyroscope Magnitude Standard Deviation
+* "tBodyGyroJerkMag-mean() ----- time domain Gyroscope Jerk Magnitude mean 
+* "tBodyGyroJerkMag-std() ----- time domain Gyroscope Jerk Magnitude standard deviation 
+ 
+### Frequency Domain Variables
+* "fBodyAcc-mean()-X ------  frequency domain Mean Body Accelerometer measure on the X axis
 * "fBodyAcc-mean()-Y" 
 * "fBodyAcc-mean()-Z" 
 * "fBodyAcc-std()-X" 
