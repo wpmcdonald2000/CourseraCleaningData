@@ -11,10 +11,13 @@ This file describes the variables, summariies and units in the required dataset
 5. STANDING (value 5)
 6. LAYING (value 6)
 
-## Variable name	 & Description
+## ID fields 
 
 * activity_labels           Activity being done by the subjects
 * activity" "subject------- Subject ID
+
+## Variable names	 & Description
+
 * tBodyAcc-mean()-X"        time domain Mean Body Accelerometer measure on the X axis
 * tBodyAcc-mean()-Y"        time domain Mean Body Acceleration  on the Y axis
 * tBodyAcc-mean()-Z"        time domain Mean Body Acceleration on the Z axis
