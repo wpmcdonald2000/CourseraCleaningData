@@ -70,7 +70,9 @@ The means of all observations for teh selected data variables were calculated fo
 * "tBodyGyroJerkMag-std() ----- time domain Gyroscope Jerk Magnitude standard deviation 
  
 ### Frequency Domain Variables
-* "fBodyAcc-mean()-X ------  frequency domain Mean Body Accelerometer measure on the X axis
+above descriptions of time domain variable apply to all variable below except in the frquency domain
+
+* "fBodyAcc-mean()-X ------  
 * "fBodyAcc-mean()-Y" 
 * "fBodyAcc-mean()-Z" 
 * "fBodyAcc-std()-X" 
