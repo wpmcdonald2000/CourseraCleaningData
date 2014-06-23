@@ -21,7 +21,7 @@ This file describes the variables, summariies and units in the required dataset
 * tBodyAcc-mean()-X ------- time domain Mean Body Accelerometer measure on the X axis
 * tBodyAcc-mean()-Y ------- time domain Mean Body Acceleration  on the Y axis
 * tBodyAcc-mean()-Z ------- time domain Mean Body Acceleration on the Z axis
-* tBodyAcc-std()-X -------- time domain Standard Deviation of Body Accelaration in the X axis
+* tBodyAcc-std()-X --------- time domain Standard Deviation of Body Accelaration in the X axis
 * tBodyAcc-std()-Y" 
 * tBodyAcc-std()-Z" 
 * tGravityAcc-mean()-X"     time domain Mean Gravity Accelerometer on the X axis
